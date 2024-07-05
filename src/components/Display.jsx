@@ -26,7 +26,7 @@ const Display = () => {
       className="w-[100%] m-2 px-6 pt-4 rounded bg-[#121212] text-white overflow-auto lg:ml-0"
     >
       <Routes>
-        <Route path="/spotify-clone-react" element={<DisplayHome />} />
+        <Route path="/" element={<DisplayHome />} />
         <Route path="/album/:id" element={<DisplayAlbum />} />
       </Routes>
     </div>
